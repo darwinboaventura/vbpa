@@ -15,7 +15,7 @@
 		<header id="main-header" class="clearfix">
 			<div class="row-head clearfix">
 				<div class="wrapper clearfix">
-					<a href="http://clientesgrupoa2.com.br/vbpa" class="el-home">
+					<a href="http://www.vbpa.com.br" class="el-home">
 						<img src="<?php echo base_url();?>assets/site//imgs/icone-home-vermelho.png" alt="Home">
 						
 						<span>Home</span>
@@ -38,7 +38,7 @@
 					<nav class="el-navigation clearfix">
 						<ul class="clearfix">
 							<li>
-								<a href="http://clientesgrupoa2.com.br/vbpa/quemsomos">Quem somos</a>
+								<a href="http://www.vbpa.com.br/quemsomos">Quem somos</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">
@@ -46,7 +46,7 @@
 							</li>
 							
 							<li>
-								<a href="http://www.clientesgrupoa2.com.br/vbpa/#home-service">Serviços</a>
+								<a href="http://www.vbpa.com.br/#home-service">Serviços</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">
@@ -54,7 +54,7 @@
 							</li>
 							
 							<li>
-								<a href="http://www.clientesgrupoa2.com.br/vbpa/#home-downloads">Downloads</a>
+								<a href="http://www.vbpa.com.br/#home-downloads">Downloads</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">
@@ -62,7 +62,7 @@
 							</li>
 							
 							<li>
-								<a href="http://www.clientesgrupoa2.com.br/vbpa/links">Links</a>
+								<a href="http://www.vbpa.com.br/links">Links</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">
@@ -70,7 +70,7 @@
 							</li>
 							
 							<li>
-								<a href="http://www.clientesgrupoa2.com.br/vbpa/#home-contact">Contato</a>
+								<a href="http://www.vbpa.com.br/#home-contact">Contato</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">

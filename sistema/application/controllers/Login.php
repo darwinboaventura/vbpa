@@ -73,7 +73,7 @@
 			$this->session->unset_userdata('logged_site_ID');
 			$this->session->unset_userdata('logged_site_name');
 			
-			redirect('http://www.clientesgrupoa2.com.br/vbpa/');
+			redirect('http://www.vbpa.com.br/');
 		}
 	}
 ?>

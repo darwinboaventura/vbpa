@@ -1,14 +1,14 @@
 		<footer id="main-footer" class="clearfix">
 			<div class="row-head clearfix">
 				<div class="wrapper clearfix">
-					<a href="http://www.clientesgrupoa2.com.br/vbpa" class="el-brand">
+					<a href="http://www.vbpa.com.br" class="el-brand">
 						<img src="<?php echo base_url();?>assets/site//imgs/marca-vbpa.png" alt="VBPA">
 					</a>
 					
 					<nav class="el-navigation clearfix">
 						<ul class="clearfix">
 							<li>
-								<a href="http://clientesgrupoa2.com.br/vbpa/quemsomos">Quem somos</a>
+								<a href="http://www.vbpa.com.br/quemsomos">Quem somos</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">
@@ -16,7 +16,7 @@
 							</li>
 							
 							<li>
-								<a href="http://www.clientesgrupoa2.com.br/vbpa/#home-service">Serviços</a>
+								<a href="http://www.vbpa.com.br/#home-service">Serviços</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">
@@ -24,7 +24,7 @@
 							</li>
 							
 							<li>
-								<a href="http://www.clientesgrupoa2.com.br/vbpa/#home-downloads">Downloads</a>
+								<a href="http://www.vbpa.com.br/#home-downloads">Downloads</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">
@@ -32,7 +32,7 @@
 							</li>
 							
 							<li>
-								<a href="http://www.clientesgrupoa2.com.br/vbpa/links">Links</a>
+								<a href="http://www.vbpa.com.br/links">Links</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">
@@ -40,7 +40,7 @@
 							</li>
 							
 							<li>
-								<a href="http://www.clientesgrupoa2.com.br/vbpa/#home-contact">Contato</a>
+								<a href="http://www.vbpa.com.br/#home-contact">Contato</a>
 								
 								<span class="el-hover">
 									<img src="<?php echo base_url();?>assets/site//imgs/icon-hover-item-menu.png">
@@ -78,23 +78,23 @@
 			
 			<ul class="clearfix">
 				<li>
-					<a href="http://www.clientesgrupoa2.com.br/vbpa">Quem somos</a>
+					<a href="http://www.vbpa.com.br">Quem somos</a>
 				</li>
 				
 				<li>
-					<a href="http://www.clientesgrupoa2.com.br/vbpa/#home-service">Serviços</a>
+					<a href="http://www.vbpa.com.br/#home-service">Serviços</a>
 				</li>
 				
 				<li>
-					<a href="http://www.clientesgrupoa2.com.br/vbpa/#home-downloads">Downloads</a>
+					<a href="http://www.vbpa.com.br/#home-downloads">Downloads</a>
 				</li>
 				
 				<li>
-					<a href="http://www.clientesgrupoa2.com.br/vbpa/links">Links</a>
+					<a href="http://www.vbpa.com.br/links">Links</a>
 				</li>
 				
 				<li>
-					<a href="http://www.clientesgrupoa2.com.br/vbpa/#home-contact">Contato</a>
+					<a href="http://www.vbpa.com.br/#home-contact">Contato</a>
 				</li>
 			</ul>
 		</nav>
