@@ -1,0 +1,9 @@
+{
+    "type": "ftp",
+    "host": "clientesgrupoa2.com.br",
+    "username": "clien132",
+    "password": "2014grupoa22014grupoa2",
+    "port": 21,
+    "remotePath": "/public_html/vbpa/sistema/",
+    "uploadOnSave": true
+}
