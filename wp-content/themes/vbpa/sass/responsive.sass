@@ -1,0 +1,297 @@
+// main header
+
+#main-header
+	.row-head
+		.el-home
+			float: none
+			display: table
+			margin: 0 auto
+			
+		.el-phones
+			float: none
+			display: table
+			margin: 15px auto 0
+			
+			span
+				float: right
+				margin-right: 0
+				margin-left: 8px 
+				
+			img
+				float: left
+				
+	.row-middle
+		height: auto
+		padding: 25px 0
+	
+		.el-brand
+			float: none
+			margin: 0 auto
+			display: table
+			
+		.el-navigation
+			display: none
+			
+		.el-button-mobile-menu
+			font-size: 13px
+			color: #fff
+			text-transform: uppercase
+			text-decoration: none
+			padding: 10px 0
+			background: #ff0000
+			width: 200px
+			text-align: center
+			display: table
+			margin: 20px auto 0
+			
+			&:hover
+				text-decoration: underline
+				
+// main slider
+
+#main-slider
+	width: 100%
+	height: 350px
+	overflow: hidden
+	position: relative
+
+	img
+		max-width: initial
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		
+// main footer
+#main-footer 
+	.row-head 
+		height: auto
+		padding: 18px 0
+		
+		.el-brand
+			float: none
+			display: table
+			margin: 0 auto
+			
+		.el-navigation
+			display: none
+			
+	.row-middle 
+		.el-message
+			font-size: 13px
+			float: none
+			text-align: center
+			margin-bottom: 20px
+			
+		.el-copyright
+			float: none
+			text-align: center
+			
+		.el-brand
+			margin-top: 20px 
+		
+// home
+
+#box-restict
+	height: initial 
+	transform: translateY(-1px)
+	padding: 19px 0
+	background: #ff0000
+	
+	form
+		padding: 0 10px
+		
+		h2
+			display: table
+			margin: 0 auto 15px
+			float: none
+			
+		fieldset 
+			width: 100%
+			margin: 0 0 15px
+			
+		input[type="submit"]
+			width: 100%
+			
+	.el-password
+		color: #fff
+		float: none
+		display: table
+		margin: 25px auto 0
+		
+#home-service
+	margin-top: 0
+	padding: 70px 0
+	
+	.box-header
+		h2
+			margin: 0
+	
+	.el-services
+		li
+			width: 100%
+			margin: 15px 0 0
+			
+			&:first-child
+				margin-top: 0
+				
+#home-downloads
+	padding: 30px 0
+	background-color: #656565
+	
+	header
+		h2
+			line-height: 1.3em
+			padding: 0 15px 60px
+			
+			strong
+				display: block
+			
+		p 
+			padding: 0 20px
+			
+	form
+		padding: 0 20px
+		 
+		fieldset
+			width: 100%
+			margin: 0 0 15px
+			
+#home-contact
+	.el-map
+		float: none
+		display: table
+		margin: 0 auto 15px
+		
+	.el-texts
+		float: none
+		display: table
+		margin: 0 auto
+		text-align: center
+		
+// mobile menu
+
+#mobile-menu 
+	width: 100%
+	height: 100%
+	position: fixed
+	z-index: 2000
+	top: 0
+	left: 0
+	padding-top: 40px 
+	opacity: 0
+	visibility: hidden
+	transition: all 0.3s
+	background: rgba(255, 0, 0, 0.8)
+	
+	&.actived
+		opacity: 1 
+		visibility: visible
+		display: block
+	
+	.el-close
+		font-size: 13px
+		color: #000
+		text-transform: uppercase
+		text-decoration: none
+		padding: 10px 35px
+		margin: 0 auto 40px
+		display: table
+		background: #fff
+		
+	ul
+		padding: 0 30px
+		
+		li
+			border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+		
+			a
+				font-size: 15px
+				color: #fff
+				text-decoration: none
+				display: block
+				padding: 10px
+				
+// page quem somos
+
+#page-about
+	margin: 0
+	
+	.box-about
+		padding: 55px 0
+		
+		header
+			padding: 0 10px
+			
+			h2
+				text-align: center
+				
+		article
+			padding: 0 15px
+			
+	.box-reasons
+		padding: 0 15px 
+		
+// page downloads
+
+#page-downloads
+	margin: 0
+	padding-bottom: 20px 
+	
+	.box-download
+		padding: 55px 0
+		
+		header
+			padding: 0 10px
+			
+			h2
+				font-size: 18px
+				
+		main
+			padding: 0 15px
+			
+			> p 
+				line-height: 1.3em
+				
+	.box-search
+		padding: 0 10px
+		
+		label
+			display: block
+			float: none
+			text-align: center
+		
+		.el-select
+			width: 100%
+			margin: 15px 0
+			
+		input[type="submit"]
+			display: table
+			margin: 0 auto
+			
+// page links
+
+#page-links
+	margin: 0
+	padding: 55px 0 
+	
+	.wrapper
+		padding: 0
+	
+		header
+				padding: 0 10px
+				
+				h2
+					font-size: 18px
+					
+		main
+			padding: 0 15px 
+		
+			> p 
+				line-height: 1.3em
+				
+			.el-item
+				table
+					tr
+						td
+							font-size: 13px

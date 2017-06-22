@@ -1,0 +1,342 @@
+#main-header .row-head .el-home {
+  float: none;
+  display: table;
+  margin: 0 auto;
+}
+
+#main-header .row-head .el-phones {
+  float: none;
+  display: table;
+  margin: 15px auto 0;
+}
+
+#main-header .row-head .el-phones span {
+  font-size: 14px;
+  float: right;
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+#main-header .row-head .el-phones img {
+  float: left;
+}
+
+#main-header .row-middle {
+  height: auto;
+  padding: 25px 0;
+}
+
+#main-header .row-middle .el-brand {
+  float: none;
+  margin: 0 auto;
+  display: table;
+}
+
+#main-header .row-middle .el-navigation {
+  display: none;
+}
+
+#main-header .row-middle .el-button-mobile-menu {
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 0;
+  background: #ff0000;
+  width: 200px;
+  text-align: center;
+  display: table;
+  margin: 20px auto 0;
+}
+
+#main-header .row-middle .el-button-mobile-menu:hover {
+  text-decoration: underline;
+}
+
+#main-slider {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+
+#main-slider img {
+  max-width: initial;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main-footer .row-head {
+  height: auto;
+  padding: 18px 0;
+}
+
+#main-footer .row-head .el-brand {
+  float: none;
+  display: table;
+  margin: 0 auto;
+}
+
+#main-footer .row-head .el-navigation {
+  display: none;
+}
+
+#main-footer .row-middle .el-message {
+  font-size: 13px;
+  float: none;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#main-footer .row-middle .el-copyright {
+  float: none;
+  text-align: center;
+}
+
+#main-footer .row-middle .el-brand {
+  margin-top: 20px;
+}
+
+#box-restict {
+  height: initial;
+  transform: translateY(-1px);
+  padding: 19px 0;
+  background: #ff0000;
+}
+
+#box-restict form {
+  padding: 0 10px;
+}
+
+#box-restict form h2 {
+  display: table;
+  margin: 0 auto 15px;
+  float: none;
+}
+
+#box-restict form fieldset {
+  width: 100%;
+  margin: 0 0 15px;
+}
+
+#box-restict form input[type="submit"] {
+  width: 100%;
+}
+
+#box-restict .el-password {
+  color: #fff;
+  float: none;
+  display: table;
+  margin: 25px auto 0;
+}
+
+#home-service {
+  margin-top: 0;
+  padding: 70px 0;
+}
+
+#home-service .box-header h2 {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+#home-service .el-services li {
+  width: 100%;
+  margin: 15px 0 0;
+}
+
+#home-service .el-services li:first-child {
+  margin-top: 0;
+}
+
+#home-downloads {
+  padding: 30px 0;
+  background-color: #656565;
+}
+
+#home-downloads header h2 {
+  line-height: 1.3em;
+  padding: 0 15px 60px;
+}
+
+#home-downloads header h2 strong {
+  display: block;
+}
+
+#home-downloads header p {
+  padding: 0 20px;
+}
+
+#home-downloads .forms form {
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 0 10px;
+}
+
+#home-downloads form fieldset {
+  width: 100%;
+  margin: 0 0 15px;
+}
+
+#home-contact .el-map {
+  width: 100%;
+  float: none;
+  display: table;
+  margin: 0 auto 15px;
+  overflow: hidden;
+}
+
+#home-contact .el-texts {
+  float: none;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#mobile-menu {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  background: rgba(255, 0, 0, 0.8);
+}
+
+#mobile-menu.actived {
+  opacity: 1;
+  visibility: visible;
+  display: block;
+}
+
+#mobile-menu .el-close {
+  font-size: 13px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 35px;
+  margin: 0 auto 40px;
+  display: table;
+  background: #fff;
+}
+
+#mobile-menu ul {
+  padding: 0 30px;
+}
+
+#mobile-menu ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+#mobile-menu ul li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+#page-about {
+  margin: 0;
+}
+
+#page-about .box-about {
+  padding: 55px 0;
+}
+
+#page-about .box-about header {
+  padding: 0 10px;
+}
+
+#page-about .box-about header h2 {
+  text-align: center;
+}
+
+#page-about .box-about article {
+  padding: 0 15px;
+}
+
+#page-about .box-reasons {
+  padding: 0 15px;
+}
+
+#page-downloads {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+#page-downloads .box-download {
+  padding: 55px 0;
+}
+
+#page-downloads .box-download header {
+  padding: 0 10px;
+}
+
+#page-downloads .box-download header h2 {
+  font-size: 18px;
+}
+
+#page-downloads .box-download main {
+  padding: 0 15px;
+}
+
+#page-downloads .box-download main > p {
+  line-height: 1.3em;
+}
+
+#page-downloads .box-search {
+  padding: 0 10px;
+}
+
+#page-downloads .box-search label {
+  display: block;
+  float: none;
+  text-align: center;
+}
+
+#page-downloads .box-search .el-select {
+  width: 100%;
+  margin: 15px 0;
+}
+
+#page-downloads .box-search input[type="submit"] {
+  display: table;
+  margin: 0 auto;
+}
+
+#page-links {
+  margin: 0;
+  padding: 55px 0;
+}
+
+#page-links .wrapper {
+  padding: 0;
+}
+
+#page-links .wrapper header {
+  padding: 0 10px;
+}
+
+#page-links .wrapper header h2 {
+  font-size: 18px;
+}
+
+#page-links .wrapper main {
+  padding: 0 15px;
+}
+
+#page-links .wrapper main > p {
+  line-height: 1.3em;
+}
+
+#page-links .wrapper main .el-item table tr td {
+  font-size: 13px;
+}

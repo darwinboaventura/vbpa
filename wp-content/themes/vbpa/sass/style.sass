@@ -1,0 +1,679 @@
+@import 'reset'
+@import 'general'
+
+// main header
+
+#main-header
+	position: relative
+
+	.row-head
+		padding: 7px 0
+		background: #808080
+		
+		.el-home
+			float: left
+			text-decoration: none
+			
+			img
+				float: left
+			
+			span
+				font-size: 14px
+				color: #fff
+				text-transform: uppercase
+				text-decoration: none
+				float: left
+				margin-left: 4px
+				margin-top: 5px
+				
+			&:hover
+				span
+					text-decoration: underline
+					
+		.el-phones
+			float: right
+			
+			span
+				font-size: 17px
+				color: #fff
+				text-transform: uppercase
+				float: left				
+				margin-right: 8px
+				margin-top: 3px
+				
+			img
+				float: right
+				
+	.row-middle
+		height: 104px
+		background: #f7f7f7
+		
+		.el-brand
+			float: left
+			margin-top: 17px 
+			
+		.el-navigation
+			float: right
+			margin-right: -20px
+			
+			ul
+				li
+					float: left					
+					position: relative
+					
+					a
+						font-size: 17px
+						color: #000
+						text-transform: uppercase
+						text-decoration: none
+						padding: 46px 18px 41px
+						display: table
+						transition: all 0.3s
+						
+						&:hover
+							background: #e6e5e5
+							
+					.el-hover
+						width: 100%
+						height: 7px
+						display: block
+						background: #ff0000
+						position: absolute
+						bottom: 0
+						left: 0
+						opacity: 0
+						transition: all 0.3s
+						
+				li:hover
+					.el-hover						
+						opacity: 1
+						
+		.el-button-mobile-menu
+			display: none
+						
+// main slider
+
+#main-slider
+	margin-top: -11px
+	float: left
+	clear: both
+	
+// main footer
+
+#main-footer
+	margin-top: 28px 
+	
+	.row-head
+			height: 104px
+			background: #f7f7f7
+			
+			.el-brand
+				float: left
+				margin-top: 17px 
+				
+			.el-navigation
+				float: right
+				
+				ul
+					li
+						float: left					
+						position: relative
+						
+						a
+							font-size: 17px
+							color: #000
+							text-transform: uppercase
+							text-decoration: none
+							padding: 46px 18px 41px
+							display: table
+							transition: all 0.3s
+							
+							&:hover
+								background: #e6e5e5
+								
+						.el-hover
+							width: 100%
+							height: 7px
+							display: block
+							background: #ff0000
+							position: absolute
+							bottom: 0
+							left: 0
+							opacity: 0
+							transition: all 0.3s
+							
+					li:hover
+						.el-hover						
+							opacity: 1
+							
+	.row-middle
+		margin-top: 22px
+		padding-bottom: 20px 
+		 
+		.el-message
+			font-size: 18.39px
+			color: #000000
+			text-transform: uppercase
+			line-height: 1.3em
+			float: left
+			
+		.el-copyright
+			font-size: 13px
+			color: #000
+			text-align: right
+			line-height: 1.3em
+			float: right
+			
+		.el-brand
+			margin: 65px auto 0
+			display: table
+	
+// home
+
+#box-restict
+	width: 100%
+	height: 130px
+	padding-top: 19px 
+	clear: both
+	transform: translateY(-50px)
+	position: relative
+	z-index: 4
+	background: url('../imgs/bg-box-restrict.png') no-repeat center top
+	
+	form
+		padding: 0 65px 
+		display: table
+		margin: 0 auto
+		
+		h2
+			float: left
+			margin-right: 26px
+			margin-top: 5px 
+			
+			img
+				float: left
+				
+			span
+				font-size: 18px
+				color: #fff
+				text-transform: uppercase
+				float: left
+				margin-left: 8px
+				margin-top: 9px  
+				
+		fieldset
+			width: 193px
+			float: left
+			margin-right: 15px
+			
+			input
+				width: 100%
+				padding: 15px
+				font-size: 15px
+				color: rgba(0, 0, 0, 0.56)
+				border: 0
+				background: #fccccc
+				
+		input[type="submit"]
+			font-size: 15px
+			font-weight: 700
+			color: #000
+			text-transform: uppercase
+			padding: 15px 15px
+			border: 0
+			cursor: pointer
+			transition: all 0.3s
+			background: #fff
+			
+			&:hover
+				background: #f6f3f3
+			
+	.el-password
+		font-size: 15px
+		color: #c70000
+		text-decoration: none
+		float: right
+		margin-top: 35px
+		margin-right: 8px
+		
+		&:hover
+			text-decoration: underline
+			
+#home-service
+	width: 100%
+	margin-top: -133px
+	padding: 109px 0 83px
+	background: url('../imgs/bg-home-service.jpg') repeat-x left top #f7f7f7
+	
+	.box-header
+		padding-bottom: 39px
+		margin-bottom: 27px 
+		background: url('../imgs/bg-linha-abaixo-titulo.png') no-repeat center bottom
+		
+		h2
+			font-size: 25px
+			color: #5d5d5d
+			text-transform: uppercase
+			float: left
+			margin-left: 370px 
+			
+	.el-services
+		width: 100%
+		max-width: 816px
+		margin: 0 auto
+		
+		li
+			width: (387/816) * 100%
+			height: 470px 
+			float: left
+			margin-right: (42/816) * 100%
+			padding: 31px 30px 0
+			background: url('../imgs/bg-box-content-service.png') no-repeat left top
+			
+			&:nth-child(2n+2)
+				margin-right: 0
+				
+			.el-thumbnail
+				width: 100%
+				height: 91px
+				overflow: hidden
+				position: relative
+				margin-bottom: 17px 
+				
+				img
+					position: absolute
+					top: 50%
+					left: 50%
+					transform: translate(-50%, -50%)
+					
+			.el-caption
+				width: 100%
+				
+				h3
+					height: 41px
+					text-align: center
+					margin-bottom: 30px
+					position: relative
+					
+					font-size: 19px
+					color: #d90000
+					line-height: 1.4em
+					text-transform: uppercase
+					text-decoration: none
+					
+					a
+						width: 100%
+						font-size: 19px
+						color: #d90000
+						line-height: 1.4em
+						text-transform: uppercase
+						text-decoration: none
+						position: absolute
+						top: 50%
+						left: 50%
+						transform: translate(-50%, -50%)
+						
+						&:hover
+							text-decoration: underline
+						
+				p
+					font-size: 17px
+					color: #000
+					line-height: 1.3em
+					text-align: center
+					
+#home-downloads
+	width: 100%
+	padding: 71px 0 
+	background: url('../imgs/bg-home-download.jpg') repeat left top
+	
+	header
+		margin-bottom: 64px
+		
+		h2
+			font-size: 22px
+			color: #d2d2d2
+			padding: 0 30px 60px
+			background: url('../imgs/bg-download-home-header.png') no-repeat center bottom
+			
+			strong
+				color: #fff
+				text-transform: uppercase
+				
+		p
+			font-size: 16px
+			color: #d4d4d4
+			line-height: 1.3em
+			padding: 0 30px
+			
+	.forms	
+		width: 100%
+		max-width: 818px
+		margin: 0 auto	
+			
+		form
+			width: (387/818) * 100%
+			float: left
+			margin-left: (17/318) * 100%
+			
+			&:first-child
+				margin-left: 0
+			
+			fieldset
+				width: 100%
+					
+				label
+					font-size: 22px
+					font-weight: 700
+					color: #fff
+					text-transform: uppercase
+					margin-bottom: 15px
+					display: block
+					
+				.el-select
+					width: 100%
+					position: relative
+					
+					input
+						width: 100%
+						padding: 12px 15px
+						border: 0
+						background: url('../imgs/icone-select-vermelho.png') no-repeat right top #dbdbdb
+						
+						font-size: 15px
+						color: rgba(0, 0, 0, 0.56)
+						
+					select
+						width: 100%
+						height: 100%
+						position: absolute
+						top: 0
+						left: 0
+						opacity: 0
+						
+				input[type="submit"]
+					float: right
+					margin-top: 13px
+					font-size: 15px
+					color: #000
+					text-transform: uppercase
+					padding: 15px 13px
+					border: 0
+					cursor: pointer
+					transition: all 0.3s
+					background: #fff
+					
+					&:hover
+						background: #f6f3f3
+					
+#big-image
+	width: 100%
+	height: 238px
+	overflow: hidden
+	position: relative
+	background: url('../imgs/example-big-image.jpg') no-repeat center bottom fixed
+	
+	img
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		
+#home-contact
+	padding: 42px 0 68px
+	background: url("../imgs/bg-home-service.jpg") repeat-x left bottom
+	
+	.el-map
+		width: (331/980) * 100%
+		float: left
+		
+	.el-texts
+		width: (612/980) * 100%
+		float: right
+		
+		p
+			font-size: 18px
+			color: #686868
+			line-height: 1.3em
+			margin-bottom: 20px
+			
+			strong
+				font-size: 19px
+				font-weight: 700
+				color: #c70000
+				text-transform: uppercase
+				
+// mobile menu
+
+#mobile-menu 
+	display: none
+	
+// page quem somos
+
+#page-about
+	margin-top: -133px 
+	padding-bottom: 92px 
+
+	.box-about
+		padding: 115px 0 75px
+		background: url('../imgs/bg-home-service.jpg') repeat-x center top #f7f7f7
+		
+		header
+			padding-left: (78/980) * 100%
+			margin-bottom: 40px
+			
+			h2
+				font-size: 25px
+				color: #5d5d5d
+				padding-bottom: 18px
+				background: url("../imgs/bg-linha-abaixo-titulo.png") no-repeat left bottom 
+			
+		article
+			padding-left:  100px
+			
+			p
+				font-size: 19px
+				color: #5d5d5d
+				line-height: 1.3em
+				margin-top: 34px
+				
+				&:first-child
+					margin-top: 0
+					
+	.box-reasons
+		margin-top: 40px 
+		padding-left: 100px
+		
+		.el-item
+			margin-top: 15px 
+			padding: 20px
+			background: #959595
+			
+			h3
+				font-size: 23px
+				color: #fff
+				text-transform: uppercase
+				padding-bottom: 7px
+				margin-bottom: 20px
+				border-bottom: 1px solid #fff
+				
+			p
+				font-size: 16px
+				color: #fff
+				line-height: 1.3em 
+				
+			&:first-child
+				margin-top: 0
+				
+			&:nth-child(even)
+				background: #dadada
+				
+				h3
+					color: #5e5e5e
+					border-color: #5f5f5f
+					
+				p
+					color: #5e5e5e
+					
+// page downloads
+
+#page-downloads
+	margin-top: -133px 
+	padding-bottom: 92px
+	
+	.box-download
+		padding: 107px 0 75px
+		background: url('../imgs/bg-home-service.jpg') repeat-x center top #f7f7f7
+		
+		header
+			padding: 0 78px 
+			margin-bottom: 40px
+			
+			h2
+				font-size: 25px
+				color: #5d5d5d
+				text-transform: uppercase
+				padding: 0 21px 22px 
+				background: url("../imgs/bg-linha-abaixo-titulo.png") no-repeat left bottom 
+				
+				strong
+					color: #ea0000
+					
+		main
+			padding: 0 86px
+			
+			> p
+				font-size: 19px
+				color: #5d5d5d
+				margin: 0 0 46px 15px 
+				
+				strong
+					color: #e00000
+					text-transform: uppercase
+					
+			ul
+				li
+					margin-bottom: 11px
+					padding: 0 13px 21px
+					border-bottom: 1px solid #dedede
+					
+					.el-img
+						float: left
+						
+					.el-text
+						float: left
+						margin: 10px 0 0 16px
+						
+						font-size: 18px
+						color: #c70000
+						text-transform: uppercase
+						
+	.box-search
+		width: 100%
+		max-width: 684px
+		margin: 38px auto 0
+		display: table
+		
+		label
+			font-size: 22px
+			font-weight: 600
+			color: #c70000
+			text-transform: uppercase
+			float: left
+			margin-top: 10px 
+			
+		.el-select
+			width: (387/857) * 100%
+			float: left
+			margin: 0 21px
+			position: relative
+			
+			input
+				width: 100%
+				padding: 12px 15px
+				border: 0
+				background: url('../imgs/icone-select-vermelho2.png') no-repeat center right #dbdbdb
+				
+				font-size: 15px
+				color: rgba(0, 0, 0, 0.56)
+				
+			select
+				width: 100%
+				height: 100%
+				position: absolute
+				top: 0
+				left: 0
+				opacity: 0
+				
+		input[type="submit"]
+			font-size: 15px
+			color: #fff
+			text-transform: uppercase
+			padding: 13px
+			cursor: pointer
+			border: 0
+			background: #7d7d7d
+			
+// page links
+
+#page-links
+	margin-top: -133px 
+	padding: 109px 0 75px
+	background: url('../imgs/bg-home-service.jpg') repeat-x center top #f7f7f7
+	
+	.wrapper
+		padding: 0 78px 
+	
+		header
+			margin-bottom: 40px
+			
+			h2
+				font-size: 22px
+				color: #5d5d5d
+				text-transform: uppercase
+				padding: 0 21px 22px 
+				background: url("../imgs/bg-linha-abaixo-titulo.png") no-repeat left bottom
+				
+		main
+			padding-left: 19px
+			
+			> p
+				font-size: 19px
+				color: #5d5d5d
+				margin-bottom: 56px
+				
+			.el-item
+				margin-bottom: 26px
+				padding-bottom: 31px
+				border-bottom: 1px solid #dedede
+				
+				h3
+					font-size: 18px
+					color: #c70000
+					text-transform: uppercase
+					margin-bottom: 17px
+					
+				table
+					width: 100%
+					
+					tr
+						td
+							width: 50%
+							border: 1px solid #d1d1d1
+							padding: 11px 13px 
+							transition: all 0.3s
+							background: #e5e5e5
+							
+							font-size: 17px
+							color: #000
+							
+							a
+								color: #000
+								text-decoration: none
+							
+							&:nth-child(2n)
+								background: #FCFCFC
+								
+						&:hover
+							td
+								background: #e5e5e5 	
