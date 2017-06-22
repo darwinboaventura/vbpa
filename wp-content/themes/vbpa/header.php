@@ -146,7 +146,7 @@
 		
 		<section id="box-restict" class="clearfix">
 			<div class="wrapper clearfix">
-				<form class="clearfix" method="post" action="http://clientesgrupoa2.com.br/vbpa/sistema/login/signin">
+				<form class="clearfix" method="post" action="http://www.vbpa.com.br/sistema/login/signin">
 					<h2 class="clearfix">
 						<img src="<?php bloginfo('template_url');?>/dist/imgs/icone-cadeadro-branco.png">
 						
